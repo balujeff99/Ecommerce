@@ -3,7 +3,7 @@ import Events from './Events'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Class from './Class'
 import Home from './Home'
-import Cart from './Cart'
+import Contact from './Contact'
 import NotFound from './NotFound'
 import Navigation from './Navigation'
 import Products from './Products'
@@ -27,7 +27,7 @@ class App extends React.Component{
     <Navigation/>
     <Routes>
     <Route path="/" element={<Home/>}/>
-      <Route path="/cart" element={<Cart/>}/>
+      <Route path="/Contact" element={<Contact/>}/>
     <Route path="/products" element={<Products products={this.state.products}/>}/>
     <Route path="/login" element={<Login/>}/>
     <Route path="*" element={<NotFound/>}/> 
