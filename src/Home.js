@@ -1,8 +1,8 @@
 function Home(){
 	return(
 		<div>
-		<h1>Mobile Brands</h1>
-		<p>Branded one's</p>
+		<h1>Video Games</h1>
+		<p>XBOX and PlayStation</p>
 		</div>
 		)
 }

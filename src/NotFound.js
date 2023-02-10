@@ -1,6 +1,9 @@
 function NotFound(){
 	return(
-		<div>Not found the link which you are searching for</div>
+		<div class="notfoundpage">
+			Error 403<br/>
+			link Not Found
+		</div>
 		)
 }
 export default NotFound
